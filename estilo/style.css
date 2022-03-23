@@ -15,7 +15,7 @@ h2 {
 font-family: var(--font-android);
 color: #1B5936;
 padding-top: 20px;
-margin-left: 20px;
+margin: 0px 0px 20px 20px;
 }
 h3 { 
 font-family: var(--font-android);
@@ -46,8 +46,8 @@ font-family: 'Times New Roman', Times, serif
 }
 header {
 background-color: #76f3ae;
-padding: 20px;
-margin: -10px -10px -22px -10px;
+padding: 30px;
+margin: auto;
 box-shadow: 0px 2px 14px -2px black;
 box-shadow: inset 0px -100px 80px 10px rgba(0, 0, 0, 0.493);
 }
