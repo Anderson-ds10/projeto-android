@@ -1,0 +1,150 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'idroid';
+    src: url('../fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+}
+:root {
+    --font-android: 'idroid', Times, Arial, sans-serif;
+}
+h1 {
+color: white;
+}
+h2 {
+font-family: var(--font-android);
+color: #1B5936;
+padding-top: 20px;
+margin-left: 20px;
+}
+h3 { 
+font-family: var(--font-android);
+color: #1B5936;
+background-color: #84E1AD;
+box-shadow: inset -300px 0px 40px 3px white;
+margin-left: 20px;
+}
+h4 {
+color: rgb(255, 255, 255);
+margin-left: 20px;
+}
+body {
+background-color: #84E1AD;
+font-size: 18px;
+
+}
+#cabeçalho {
+font-size: 18px;
+text-align: center;
+color: rgba(255, 255, 255, 0.863);
+text-indent: 0px;
+}
+.cabeçalho {
+text-align: center;
+font-size: 36px;
+font-family: 'Times New Roman', Times, serif
+}
+header {
+background-color: #76f3ae;
+padding: 20px;
+margin: -10px -10px -22px -10px;
+box-shadow: 0px 2px 14px -2px black;
+box-shadow: inset 0px -100px 80px 10px rgba(0, 0, 0, 0.493);
+}
+nav > a {
+text-decoration: none;
+color: rgba(255, 255, 255, 0.973);
+padding-right: 20px;
+}
+nav > a:hover {
+    background-color: #76f3ae;
+    padding: 15px;
+    border-radius: 5px;
+    color: #1B5936;
+}
+p {
+font-size: 18px;
+text-align: justify;
+padding: 5px;
+text-indent: 35px;
+margin: 0px 10px 0px 10px;
+font-family: Arial, Helvetica, sans-serif;
+line-height: 2em;
+}
+div {
+background-color: white;
+margin: auto;
+width: 800px;
+border-radius: 0px 0px 20px 20px;
+box-shadow: 0px 4px 20px 0px black;
+}
+.video {
+background-color: #1B5936;
+padding: 20px;
+}
+iframe {
+margin: auto;
+width: 100%;
+}
+.icon::after {
+content: '⇪';
+margin-left: 5px;
+color: #1B5936;
+}
+.link {
+text-decoration: none;
+color: #1B5936;
+}
+.destaque {
+color: #1B5936;
+}
+.titulofim {
+background-color: #63a37f;
+border-radius: 20px 20px 0px 0px ;
+padding: 20px;
+margin-right: 20px;
+}
+.tabela {
+background-color: #76f3ae96;
+border-radius: 0px 0px 20px 20px;
+margin: -25px 20px 20px 20px;
+box-shadow: 2px 2px 9px 2px rgba(0, 0, 0, 0.336);
+}
+.icon2::before {
+content: '✔';
+margin-right: 5px;
+}
+.fim {
+padding: 20px;
+}
+footer {
+background-color: #1B5936;
+}
+footer > p {
+text-align: center;
+color: white;
+margin-top: 20px;
+color: #7dad93;
+}
+.autor {
+color: white;
+}
+li > a {
+    color: black;
+}
+img {
+    width: 100%;
+}
+main {
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+}
+.imgbugdroid {
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+section ul {
+    columns: 2;
+}
